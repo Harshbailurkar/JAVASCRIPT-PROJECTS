@@ -1,0 +1,20 @@
+body{
+
+    text-align: center;
+    margin-top: 25vh;
+    background-color: antiquewhite;
+    background-position: center;
+}
+
+button{
+
+    background-color: yellow;
+    width: 5vw;
+    border: 1px;
+    padding: 5px;
+    font-weight: bold;
+}
+span{
+
+    color: brown;
+}

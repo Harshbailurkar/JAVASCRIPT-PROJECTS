@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counting app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p id="welcome-el"></p>
+    <h1> people entered :</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()"> increment</button> <br>
+    <button id="save-btn" onclick="Save()">SAVE</button>
+    <p id="save-el">Previous Entries: <br> </p>
+    <p id="total-el">total Entries :</p>
+    <button onclick="reset()" style=" background-color: black; color: white;">Reset</button>
+    <button style="background-color: blueviolet;" onclick="error()"> submit</button>
+    <p id="error"></p>
+    <script src="script.js"></script>
+</body>
+</html>
