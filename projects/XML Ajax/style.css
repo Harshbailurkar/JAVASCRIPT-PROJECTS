@@ -1,0 +1,32 @@
+img {
+  border-radius: 50%;
+  width: 10rem;
+  height: auto;
+  padding: 2em;
+  display: flex;
+  justify-self: center;
+}
+.card {
+  display: grid;
+  grid-template-rows: auto;
+  place-content: center;
+  background-color: rgb(32, 32, 32);
+  width: 30%;
+  min-width: 224px;
+  text-align: center;
+}
+h2 {
+  color: white;
+}
+span {
+  color: white;
+  padding: 0.9em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body {
+  background-color: black;
+}
