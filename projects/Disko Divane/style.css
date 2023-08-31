@@ -53,6 +53,7 @@ button {
 img {
   padding-top: 2rem;
   width: 40%;
+  max-width: 250px;
 }
 h2 {
   color: whitesmoke;

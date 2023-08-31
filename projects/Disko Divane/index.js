@@ -2,6 +2,11 @@ let discoBall = document.getElementById("ball");
 let cat = document.getElementById("cat");
 const start = document.getElementById("start");
 const stop = document.getElementById("stop");
+const audio = document.getElementById("audio");
+const cryaudio = document.getElementById("cryaudio");
+
+const preloadedCatImage = new Image();
+preloadedCatImage.src = "./happy-cat.gif";
 
 function colorFind() {
   const colorCode = "0123456789ABCDEF";
@@ -14,8 +19,9 @@ function colorFind() {
 let intervalId;
 start.addEventListener("click", () => {
   discoBall.src = "./glowball.gif";
-  cat.src = "./happy-cat.gif";
+  cat.src = preloadedCatImage.src;
 
+  audio.src = "./song.mp3";
   document.querySelector("h4").innerText = "press Stop to End";
   console.log("start");
   if (!intervalId) {
@@ -32,4 +38,6 @@ stop.addEventListener("click", () => {
   document.body.style.backgroundColor = "#181616";
   discoBall.src = "./offball.png";
   cat.src = "./banana-cat.gif";
+  audio.src = " ";
+  cryaudio.src = "./crysong.mp3";
 });

@@ -57,22 +57,22 @@ tabBtn.addEventListener("click" ,function(){
 })
 
 function render(leads){
-let listItems=""      //for 3rd or method
-for(let i=0; i< leads.length; i++){
-
-    // ulEl.innerHTML += " <li>" + mylead[i] + "</li>  "
-                //or
-    // const li=document.createElement("li")
-    // li.textContent=mylead[i]
-    // ulEl.append(li)
-
-    // or
-
-    listItems+=  `<li> 
-                    <a target='_blank' href='${ leads[i] }'>  ${ leads[i] } </a>
-                                                                               </li>` 
-}
-
-ulEl.innerHTML=listItems   //for 3rd or method
-
-}
+    let listItems=""      //for 3rd or method
+    for(let i=0; i< leads.length; i++){
+    
+        // ulEl.innerHTML += " <li>" + mylead[i] + "</li>  "
+                    //or
+        // const li=document.createElement("li")
+        // li.textContent=mylead[i]
+        // ulEl.append(li)
+    
+        // or
+    
+        listItems+=  `<li> 
+                        <a target='_blank' href='${ leads[i] }'>  ${ leads[i] } </a>
+                                                                                   </li>` 
+    }
+    
+    ulEl.innerHTML=listItems   //for 3rd or method
+    
+    }

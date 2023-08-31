@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  background-color: rgb(34, 31, 31);
+  padding: 0.6em;
+}
+li {
+  list-style: none;
+  background-color: whitesmoke;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(52, 51, 51);
+}
+h1 {
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 5%;
+}
+h2 {
+  text-align: center;
+  padding-top: 10%;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.key {
+  background-color: gainsboro;
+  text-align: center;
+  display: inline-block;
+  margin-left: 44%;
+  padding: 0.9em 1.2em;
+  margin-top: 2em;
+  align-items: center;
+}
